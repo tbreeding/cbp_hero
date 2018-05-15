@@ -4,10 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/css/index.css">
-  <title>An SCSS Project Template</title>
+  <link rel="stylesheet" href="css/index.css">
+  <title>Hero</title>
 </head>
 <body>
-  
+  <div id="map">
+    <div id="hero"></div>
+    <div id="ghost"></div> 
+  </div>
+  <div id="buttons">
+    <button onclick="placeHero(0, -50);">&uArr;</button>
+    <button onclick="placeHero(0, 50);">&dArr;</button>
+    <button onclick="placeHero(-50, 0);">&lArr;</button>
+    <button onclick="placeHero(50, 0);">&rArr;</button>
+</div>
+  <script src="js/main.js"></script>
 </body>
 </html>
